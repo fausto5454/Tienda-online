@@ -10,16 +10,9 @@ export const About = () => {
         </h2>
         <div className="flex items-center justify-center gap-5">
           <p className="text-primary">
-            Bienvenido a Shopify, una tienda de ropa que ofrece una selección
-            única de prendas de vestir y accesorios de moda para hombres y
-            mujeres de todas las edades. En Shopify, nos apasiona la moda y nos
-            esforzamos por ofrecer productos de alta calidad a precios
-            asequibles para nuestros clientes.
+          Shopify es una tienda de ropa en línea que ofrece prendas y accesorios de moda para hombres y mujeres de todas las edades. Se enfocan en ofrecer productos de alta calidad a precios asequibles y están comprometidos con brindar una buena experiencia de compra.
             <br />
-            Gracias por visitar nuestra tienda en línea. Siéntete libre de
-            explorar nuestros productos y si tienes alguna pregunta, no dudes en
-            ponerte en contacto con nosotros. ¡Esperamos que disfrutes de tu
-            experiencia de compra en nuestra tienda en línea!
+            Gracias por visitar nuestra tienda en línea. Te invitamos a explorar nuestros productos y, si tienes alguna pregunta, no dudes en contactarnos. ¡Esperamos que disfrutes tu experiencia de compra con nosotros!
           </p>
           <img
             className="hidden lg:block lg:w-[450px] rounded-lg"
@@ -35,10 +28,7 @@ export const About = () => {
             Misión
           </h3>
           <p className="text-primary">
-            "Nuestra misión es proporcionar ropa elegante y cómoda a precios
-            asequibles, mientras promovemos la sostenibilidad en la moda. Nos
-            comprometemos a ofrecer productos de alta calidad y un servicio al
-            cliente excepcional a todos nuestros clientes."
+          Nuestro objetivo es ofrecer ropa elegante y cómoda a precios accesibles, al mismo tiempo que fomentamos la sostenibilidad en la moda. Nos dedicamos a brindar productos de alta calidad y un servicio al cliente sobresaliente para todos nuestros compradores.
           </p>
         </div>
         <div>
@@ -46,10 +36,7 @@ export const About = () => {
             Visión
           </h3>
           <p className="text-primary">
-            "Nuestra visión es convertirnos en líderes en la moda sostenible,
-            ofreciendo productos de alta calidad y promoviendo prácticas éticas
-            y respetuosas con el medio ambiente en toda la industria de la
-            moda."
+          Nuestra aspiración es ser líderes en la moda sostenible, proporcionando productos de alta calidad y promoviendo prácticas éticas y ambientalmente responsables en toda la industria de la moda.
           </p>
         </div>
       </div>

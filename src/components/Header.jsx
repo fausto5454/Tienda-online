@@ -26,7 +26,7 @@ export const Header = () => {
   return (
     <header
       className={`${
-        isActive ? "bg-white py-4 shadow-md" : "bg-none py-6"
+        isActive ? "bg-white py-4 shadow-md" : "bg-yellow-300 py-6"
       } fixed w-full z-10 transition-all`}
     >
       <div className="container mx-auto flex items-center justify-between h-full">
@@ -40,7 +40,7 @@ export const Header = () => {
 
         {/* Menu */}
         <div className="flex gap-10">
-          <div className="absolute right-0 left-0 bg-white w-full h-full -bottom-[70px] flex justify-center sm:bg-none sm:relative sm:right-0 sm:bottom-0">
+          <div className="absolute right-0 left-0 bg-yellow-300 w-full h-full -bottom-[70px] flex justify-center sm:bg-none sm:relative sm:right-0 sm:bottom-0">
             <Navbar />
           </div>
           {/* Carrito de compra */}
