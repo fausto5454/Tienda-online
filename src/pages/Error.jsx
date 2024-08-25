@@ -11,7 +11,7 @@ export const Error = () => {
           <div class="absolute">
             <div class="">
               <h1 class="my-2 text-gray-800 dark:text-indigo-600 font-bold text-2xl">
-                Parece que has encontrado la puerta a la gran nada.
+                Te encuentras en la sección vacía. Visita en la sección de inicio.
               </h1>
               <p class="mt-2 mb-10 text-gray-800 dark:text-indigo-600">
                 ¡Lo lamento! Visite nuestra página de inicio para llegar a donde

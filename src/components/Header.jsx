@@ -34,7 +34,8 @@ export const Header = () => {
         <Link to={"/"}>
           <div className="flex items-center gap-4">
             <img className="w-[40px]" src={Logo} alt="Logo" />
-            <h2 className="uppercase text-xl font-bold">Shopify</h2>
+            <h2 className="text-2xl">
+            <b>Free<span className="text-red-500">Market</span></b></h2>
           </div>
         </Link>
 

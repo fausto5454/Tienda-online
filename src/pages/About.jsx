@@ -1,5 +1,5 @@
 // imagenes
-import Nosotros from "../img/about.jpg";
+import Nosotros from "../img/about.png";
 
 export const About = () => {
   return (
@@ -10,9 +10,9 @@ export const About = () => {
         </h2>
         <div className="flex items-center justify-center gap-5">
           <p className="text-primary">
-          Shopify es una tienda de ropa en línea que ofrece prendas y accesorios de moda para hombres y mujeres de todas las edades. Se enfocan en ofrecer productos de alta calidad a precios asequibles y están comprometidos con brindar una buena experiencia de compra.
+          <b>Free<span className="text-red-500">Market</span></b> es una tienda especializada en moda, ofreciendo una amplia selección de ropa y accesorios para hombres y mujeres de todas las edades. Nos dedicamos a proporcionar productos de alta calidad a precios accesibles, con el firme compromiso de ofrecer una excelente experiencia de compra.
             <br />
-            Gracias por visitar nuestra tienda en línea. Te invitamos a explorar nuestros productos y, si tienes alguna pregunta, no dudes en contactarnos. ¡Esperamos que disfrutes tu experiencia de compra con nosotros!
+            Gracias por visitar nuestra tienda en línea. Te invitamos a explorar nuestra colección y, si tienes alguna consulta, no dudes en ponerte en contacto con nosotros. ¡Esperamos que disfrutes al máximo tu experiencia de compra con <b>Free<span className="text-red-500">Market</span></b>!
           </p>
           <img
             className="hidden lg:block lg:w-[450px] rounded-lg"
